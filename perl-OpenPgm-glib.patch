@@ -1,0 +1,10 @@
+--- OpenPgm-0.01/OpenPgm.xs.orig	2010-01-01 16:45:47.000000000 +0100
++++ OpenPgm-0.01/OpenPgm.xs	2013-07-17 18:38:49.011767304 +0200
+@@ -1,6 +1,7 @@
+ #include "EXTERN.h"
+ #include "perl.h"
+ #include "XSUB.h"
++#include <glib.h>
+ #include <pgm/pgm.h>
+ 
+ #include "ppport.h"
