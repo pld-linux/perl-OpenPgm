@@ -57,6 +57,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes
 %{perl_vendorarch}/OpenPgm.pm
 %dir %{perl_vendorarch}/auto/OpenPgm
-%{perl_vendorarch}/auto/OpenPgm/OpenPgm.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/OpenPgm/OpenPgm.so
 %{_mandir}/man3/OpenPgm.3pm*
