@@ -3,7 +3,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 Summary:	Perl interface to OpenPGM library
 Summary(pl.UTF-8):	Perlowy interfejs do biblioteki OpenPGM
 Name:		perl-OpenPgm
